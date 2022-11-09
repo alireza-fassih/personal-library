@@ -8,4 +8,5 @@ class LibraryApplication
 
 fun main(args: Array<String>) {
 	runApplication<LibraryApplication>(*args)
+	println("Starting server on http://localhost:8080")
 }
